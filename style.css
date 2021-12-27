@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Monserrat', sans-serif;
+}
+
+html {
+    font-size: 16px
+}
+
+:root {
+    --brown:#CB997E;
+    --peach:#FFF1E6;
+    --pinkishWhite: #EDDCD2;
+    --gray: #F0EFEB;
+    --lightGreen: #A5A58D;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: var(--peach);
+}
+
+#grid {
+    border: var(--brown) 10px solid;
+    border-radius: 13px;
+    display: grid;
+    height: 70rem;
+    width: 70rem;
+}
+
+#gridContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#resetButton {
+    font-size: 1rem;
+    padding: 1em;
+    background-color: var(--pinkishWhite);
+    color: black;
+    border-radius: 13px;
+    border: var(--brown) 3px solid;
+}
+
+#navBar {
+    background-color: var(--lightGreen);
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+#gridSize {
+    font-size: 1rem;
+    padding: 1rem;
+    border: var(--brown) 3px solid;
+    border-radius: 3px;
+}
+#warning {
+    color: black;
+    background-color: var(--pinkishWhite);
+    border-radius: 13px;
+    border: var(--brown) 3px solid;
+    padding: 1rem;
+}
+
+.gridPixel {
+    background-color: white;
+}
+
+.color {
+    background-color: var(--pinkishWhite);
+}
+
